@@ -2,7 +2,7 @@
 <odoo>
   <template id="report_alumno">
     <t t-call="web.html_container">
-      <t-foreach="docs" t-as="alu">
+      <t t-foreach="docs" t-as="alu">
         <t t-call="web.external_layout">
           <h2>Informe de Alumno</h2>
           <t t-esc="alu.dni" />
